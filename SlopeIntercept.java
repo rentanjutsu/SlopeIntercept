@@ -9,8 +9,8 @@ import java.util.Scanner;
       int y1 = 0;
       int y2 = 0;
       int slope = ((y2 - y1)/(x2 - x1));
-     
-     
+      int y1intercept = y1 - slope * x1;
+      int x1intercept = -1 * (y1intercept / slope);
          {//Prompt the user for input
          System.out.print("Enter the X and Y coordinates of starting point:\n\tx1 = ");
          x1 = userInput.nextInt();

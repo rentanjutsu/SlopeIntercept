@@ -26,15 +26,17 @@ import java.util.Scanner;
          double slope = ((y2 - y1)/(x2 - x1));
          double y1intercept = (y1 - slope * x1);
          double x1intercept = (-1 * (y1intercept / slope));
-         if (x1 == x2);
+         {if (x1 == x2);
             System.out.print("Slope: \"undefined\"");
-         if (y1 == y2);
+         }
+         {if (y1 == y2);
             System.out.print("Slope: " + slope +
             "\nY Intercept: " + y1intercept +
             "\nX Intercept: \"undefined\"");            
-         else ;
+         else;
             System.out.print("Slope: " + slope +
             "\nY Intercept: " + y1intercept +
             "\nX Intercept: " + x1intercept);
+         }
       }
    }
